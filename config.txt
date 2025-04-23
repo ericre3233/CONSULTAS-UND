@@ -1,0 +1,7 @@
+apos_colar_cpf=1
+apos_primeiro_esc=1
+apos_segundo_esc=0
+apos_pressionar_down=1
+apos_pressionar_enter_pesquisacpf=1
+apos_clicar_processo=1
+apos_clicar_enviar=0

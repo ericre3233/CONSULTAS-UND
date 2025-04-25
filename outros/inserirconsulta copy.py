@@ -97,7 +97,7 @@ def inserirconsulta(contador, cont, bot: DesktopBot, self: DesktopBot, contador_
                         self.not_found("processo")
                     bot.click()
 
-                    self.wait(2000) 
+                    self.wait(1000) 
 
                     if not bot.find("enviar", matching=0.97, waiting_time=10000):
                         self.not_found("enviar")
@@ -138,9 +138,9 @@ def inserirconsulta(contador, cont, bot: DesktopBot, self: DesktopBot, contador_
                         bot.type_keys(["escape"])
                         self.wait(1000)
                         bot.type_keys(["down"] * 1)
-                        self.wait(2000)
-                        bot.type_keys(["ctrl", "shift", "-"])
                         self.wait(1000)
+                        bot.type_keys(["ctrl", "shift", "-"])
+                        #self.wait(1000)
                         bot.type_keys(["down"] * 2)
                         bot.type_keys(["enter"])
                         self.wait(1000)
